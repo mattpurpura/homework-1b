@@ -1,18 +1,85 @@
+*{
+    box-sizing: border-box;
+}
+
 header{
-    background-color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #ffffff;
+    border-bottom: solid #cccccc 5px;
+    margin-bottom: 30px;
+    overflow: auto;
+    padding-left: 350px;
+    padding-right: 350px;
 }
 
-body{
-    background-color: lightgrey;
+body{  
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    background-color: #e1e3e8;
 }
 
-#contact{
-    position: relative;
-    left: 1450px;
-    bottom: 100px;
+.name{
+    background-color: #4aaaa5;
+    color:#ffffff;
+    width: 293px;
+    height: 100px;
+    float: left;
+    text-align: center;
+    padding-top: 30px;
 }
 
-#portfolio{
-    position: relative;
-    left: 1350px;
+.tab{
+    float: right;
+    margin-top: 60px;
+    color: #777777;
+    text-decoration: none;
+    font-size: 22px;
+}
+
+#tabPortfolio{
+    border-left: solid #777777 1px;
+    border-right: solid #777777 1px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.mainContent{
+    background-color: #ffffff;
+    border: solid #dddddd 5px;
+    width: 960px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.pageTitle{
+    color: #4aaaa5;
+    border-bottom: solid #e1e3e8 3px;
+    padding: 10px; 
+}
+
+#profilePic{
+    width: 210px;
+    height: 210px;
+    float: left;
+    margin: 10px;
+    margin-right: 27px;
+}
+
+p{
+    font-size: 20px;
+    text-align: left;
+}
+
+footer{
+    background-color: #666666; 
+    text-align: center; 
+    color: #ffffff;
+    border-top: solid #4aaaa5 10px;
+    height: 90px; 
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    padding-top: 55px;
 }
