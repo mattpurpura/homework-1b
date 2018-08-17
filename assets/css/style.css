@@ -19,6 +19,7 @@ body{
 }
 
 .name{
+    text-decoration: none;
     background-color: #4aaaa5;
     color:#ffffff;
     width: 293px;
@@ -29,12 +30,25 @@ body{
     margin: auto;
 }
 
+.name:hover{
+    background-color: #39918c;
+}
+
+.home{
+    text-decoration: none;
+    color: #ffffff;
+}
+
 .tab{
     float: right;
     margin-top: 40px;
     color: #777777;
     text-decoration: none;
     font-size: 22px;
+}
+
+.tab:hover{
+    color: rgb(31, 31, 31);
 }
 
 #tabPortfolio{
@@ -105,6 +119,10 @@ p{
     width: 200px;
     text-align: center;
     padding-top: 15px;
+}
+
+.label:hover{
+    background-color: #39918c;  
 }
 
 .link{
